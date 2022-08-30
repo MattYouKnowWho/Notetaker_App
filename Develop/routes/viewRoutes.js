@@ -1,0 +1,1 @@
+const viewRoutes = require('express').Router()
