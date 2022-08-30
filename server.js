@@ -5,7 +5,7 @@ const app = express()
 const PORT = process.env.PORT || 3001;
 
 const htmlRoutes = require('./routes/viewRoutes')
-const api = require('./routes/viewRoutes')
+const api = require('./routes/api/index')
 
 const middleware = [
     express.static('public'),
