@@ -15,7 +15,7 @@ const middleware = [
 app.use(middleware)
 
 // All routes
-app.use(htmlRoutes)
+app.use('/', htmlRoutes);
 app.use('/api', api);
 
 
